@@ -1,0 +1,2 @@
+import { Navbar } from "@/components/navbar"; import { Footer } from "@/components/footer"; import { Hero } from "@/sections/hero"; import { Stats } from "@/sections/stats"; import { Profiles } from "@/sections/profiles"; import { SuccessStories } from "@/sections/success-stories"; import { Plans } from "@/sections/plans"; import { CTA } from "@/sections/cta";
+export default function Home() { return (<><Navbar /><main><Hero /><Stats /><Profiles /><SuccessStories /><Plans /><CTA /></main><Footer /></>); }

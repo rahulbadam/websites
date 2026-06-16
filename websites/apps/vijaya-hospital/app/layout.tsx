@@ -1,0 +1,4 @@
+import type { Metadata } from "next"; import { Inter } from "next/font/google"; import "./globals.css";
+const inter = Inter({ subsets: ["latin"], variable: "--font-sans", display: "swap" });
+export const metadata: Metadata = { title: "Vijaya Super Speciality Hospital | Pedda Amberpet", description: "Leading multi-speciality hospital in Pedda Amberpet providing world-class healthcare with 25+ doctors, 20+ departments, and 24/7 emergency services.", metadataBase: new URL("https://vijayahospital.in") };
+export default function RootLayout({ children }: { children: React.ReactNode }) { return <html lang="en"><body className={`${inter.variable} font-sans`}>{children}</body></html>; }

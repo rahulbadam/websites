@@ -1,0 +1,51 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+@layer base{
+:root{
+--background:240 10% 4%;
+--foreground:0 0% 98%;
+--card:240 6% 10%;
+--card-foreground:0 0% 98%;
+--popover:240 6% 10%;
+--popover-foreground:0 0% 98%;
+--primary:265 89% 78%;
+--primary-foreground:240 10% 4%;
+--secondary:240 5% 16%;
+--secondary-foreground:0 0% 98%;
+--muted:240 5% 16%;
+--muted-foreground:240 5% 65%;
+--accent:265 89% 78%;
+--accent-foreground:240 10% 4%;
+--destructive:0 84% 60%;
+--destructive-foreground:0 0% 98%;
+--border:240 4% 18%;
+--input:240 4% 18%;
+--ring:265 89% 78%;
+--radius:0.75rem;
+--font-sans:"Inter",system-ui,sans-serif;
+}
+.dark{
+--background:240 10% 4%;
+--foreground:0 0% 98%;
+--card:240 6% 10%;
+--card-foreground:0 0% 98%;
+--popover:240 6% 10%;
+--popover-foreground:0 0% 98%;
+--primary:265 89% 78%;
+--primary-foreground:240 10% 4%;
+--secondary:240 5% 16%;
+--secondary-foreground:0 0% 98%;
+--muted:240 5% 16%;
+--muted-foreground:240 5% 65%;
+--accent:265 89% 78%;
+--accent-foreground:240 10% 4%;
+--destructive:0 62% 30%;
+--destructive-foreground:0 0% 98%;
+--border:240 4% 18%;
+--input:240 4% 18%;
+--ring:265 89% 78%;
+}}
+@layer base{
+*{ @apply border-border;}
+body{@apply bg-background text-foreground antialiased;}
+html{scroll-behavior:smooth;}
+}

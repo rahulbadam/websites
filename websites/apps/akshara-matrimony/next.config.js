@@ -1,0 +1,1 @@
+/** @type {import('next').NextConfig} */ const nextConfig = { reactStrictMode: true, transpilePackages: ["@websites/ui", "@websites/utils", "@websites/hooks", "@websites/types"], images: { domains: ["images.unsplash.com"], formats: ["image/avif", "image/webp"] } }; module.exports = nextConfig;
